@@ -11,7 +11,7 @@ import uz.sadirbaev.template.service.TestService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/test")
+@RequestMapping("/api/test")
 public class TestController {
 
     private final TestService service;
